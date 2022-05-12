@@ -1,6 +1,5 @@
-import { container } from "tsyringe"; // // Aqui está sendo usado a função (container), e passado a lib (tsyringe)
-
-import "@shared/container/providers/index" // Import do container do (DayjsDateProvide) e(EtherealMailProvider).
+import { container } from "tsyringe"; 
+import "@shared/container/providers/index" 
 
 import { ISpecificationsRepository } from "@modules/cars/repositories/ISpecificatiosRepository";
 import { SpecificationsRepository } from "@modules/cars/infra/typeorm/repositories/SpecificationsRepository";
