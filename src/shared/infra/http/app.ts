@@ -10,7 +10,7 @@ import swaggerFile from "../../../swagger.json";
 import createConnection from "@shared/infra/typeorm/index";
 import upload from "@config/upload";
 
-createConnection('database');
+createConnection();
 
 const app = express();
 app.use(express.json()); 
