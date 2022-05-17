@@ -128,7 +128,7 @@ yarn dev
 #### ***🐳 Com Docker***
 - Instale as dependências do projeto com (yarn ou npm) nesse exemplo estou usando **yarn**
 ```bash
-yarn install
+yarn
 ```
 - Após a instalação das dependências você deve renomear os arquivos `.env.examplo` para `.env` e `.env.production.exemplo` para `.env` que se encontram na raiz do projeto.
 - Copie as informações abaixo para o arquivo `.env`.
