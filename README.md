@@ -90,37 +90,37 @@ git clone https://github.com/macmiller87/API_Ignite_Rentx
 ```
 - Acesse a pasta do projeto
 ```bash
-cd rentx-api
+cd API_Ignite_Rentx
 ```
 #### 🔥 ***Sem Docker***
 - Instale as dependências do projeto com (yarn ou npm) nesse exemplo estou usando **yarn**
 ```bash
-yarn install
+yarn
 ```
 - Após a instalação das dependências você deve renomear os arquivos `.env.example` para `.env` e `.env.example` para `.env.production` que se encontram na raiz do projeto.
 - Caso você ainda não tenha criado a base de dados, basta executar esse comando no seu SGDB:
 ````sql
-CREATE DATABASE rentxdb;
+CREATE DATABASE rentx;
 ````
 - Dentro do arquivo `.env` você coloca as informações do seu banco de dados.
 ```bash
 # Exemplo
 DB_USERNAME="user" # nome de usuário do banco de dados
 DB_PASSWORD="password" # senha de usuário do banco de dados
-DB_NAME="rentxdb" # mantenha esse nome caso tenha executado o primeiro comando, caso contrario altere pelo nome escolhido.
+DB_NAME="rentx" # mantenha esse nome caso tenha executado o primeiro comando, caso contrario altere pelo nome escolhido.
 ```
 - Feito as modificações anteriores, vamos agora executar o comando que roda as nossas migrations.
 ```
-yarn db:migrate
+yarn typeorm migration:run
 ```
 - Em **produção** você vai precisar alterar o arquivo `.env.exemplo`, coloque suas informações e após você deve executar o comando para iniciar API em **modo de produção**.
 ```bash
-yarn start:prod
+yarn build
 ```
 
 - Iniciar a API em modo de desenvolvimento:
 ```bash
-yarn start:dev
+yarn dev
 ```
 
 **Pronto agora API estará rodando e pode ser acessado em [`http://localhost:8080`](http://localhost:8080)**
@@ -143,7 +143,7 @@ docker-compose up -d
 ```
 - Após subir o container você pode observar os logs da aplicação:
 ```bash
-docker logs api-rentx -f
+docker logs API_Ignite_Rentx -f
 ```
 **Pronto agora API estará rodando com Docker e já pode ser acessado em [`http://localhost:8080`](http://localhost:8080)**
 
