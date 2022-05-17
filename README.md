@@ -1,6 +1,6 @@
 <p align="center">
 <a href="http://localhost:8080/api-docs" target="_blank">
-<img src=".github/assets/logo@rentx-logo.png" width="460px;" alt="API RENTX - logotipo" />
+<img src=".github/assets/logo@rentx-logo.png" width="460px;" alt="API_Ignite_Rentx - logotipo" />
 </a>
 </p>
 
