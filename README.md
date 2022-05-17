@@ -97,7 +97,7 @@ cd rentx-api
 ```bash
 yarn install
 ```
-- Após a instalação das dependências você deve renomear os arquivos `.env.example` para `.env` e `.env.production.example` para `.env.production` que se encontram na raiz do projeto.
+- Após a instalação das dependências você deve renomear os arquivos `.env.example` para `.env` e `.env.example` para `.env.production` que se encontram na raiz do projeto.
 - Caso você ainda não tenha criado a base de dados, basta executar esse comando no seu SGDB:
 ````sql
 CREATE DATABASE rentxdb;
@@ -113,7 +113,7 @@ DB_NAME="rentxdb" # mantenha esse nome caso tenha executado o primeiro comando, 
 ```
 yarn db:migrate
 ```
-- Em **produção** você vai precisar alterar o arquivo `.env.production`, coloque suas informações e após você deve executar o comando para iniciar API em **modo de produção**.
+- Em **produção** você vai precisar alterar o arquivo `.env.exemplo`, coloque suas informações e após você deve executar o comando para iniciar API em **modo de produção**.
 ```bash
 yarn start:prod
 ```
@@ -130,12 +130,12 @@ yarn start:dev
 ```bash
 yarn install
 ```
-- Após a instalação das dependências você deve renomear os arquivos `.env.example` para `.env` e `.env.production.example` para `.env.production` que se encontram na raiz do projeto.
+- Após a instalação das dependências você deve renomear os arquivos `.env.examplo` para `.env` e `.env.production.exemplo` para `.env` que se encontram na raiz do projeto.
 - Copie as informações abaixo para o arquivo `.env`.
 ```bash
 DB_USERNAME="docker"
-DB_PASSWORD="docker"
-DB_NAME="rentxdb"
+DB_PASSWORD="ignite"
+DB_NAME="rentx"
 ```
 - Agora vamos subir o container do projeto utilizando o comando abaixo:
 ```bash
@@ -151,9 +151,9 @@ docker logs api-rentx -f
 
 - Primeiramente para você conseguir rodar os testes sem problemas, você deve criar um banco de dados para realizar os teste
 ````sql
-CREATE DATABASE rentxdb_test;
+CREATE DATABASE rentx_test;
 ````
-- Em seguida você vai precisar configurar com as suas informações o arquivo de ambiente de testes `.env.test`
+- Em seguida você vai precisar configurar com as suas informações o arquivo de ambiente de testes `.env`
 - Tendo feito tudo agora vamos rodar os testes da aplicação e pronto você já tem os seus testes configurado.
 ````
 yarn test
