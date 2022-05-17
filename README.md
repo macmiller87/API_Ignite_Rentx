@@ -1,83 +1,174 @@
-## Projeto API RENTX que está sendo desenvolvido durante o Curso da Rocketseat trilha Nodejs.
+<p align="center">
+<a href="http://localhost:8080/api-docs" target="_blank">
+<img src=".github/assets/logo@rentx-logo.png" width="460px;" alt="API RENTX - logotipo" />
+</a>
+</p>
 
-Esse projeto é uma API de cadastro de carros, usuários e controle e aluguel de carros.
-###### Está em desenvolvimento ............. 🔥🔥🚀🚀
+<h3 align="center">
+⚡ RentxAPI - Aluguel de automóveis 🚗
+</h3>
 
-## :white_check_mark: Requisitos Funcionais
+</br>
 
-### Cadastro de Carro
-- [x] Deve ser possível cadastrar um novo carro.
+<p align="center">
+<img src=".github/screens/demo@screen.png" alt="demostração" />
+</p>
 
-### Listagem de Carros
-- [x] Deve ser possível listar os carros disponíveis.
-- [x] Deve ser possível listar todos os carros desponíveis pelo nome da categoria.
-- [x] Deve ser possível listar todos os carros desponíveis pelo nome da marca.
-- [x] Deve ser possível listar todos os carros desponíveis pelo nome da carro.
+## 📖**Sobre**
+O projeto consiste em uma API para alugueis de automóveis, ela vem
+para solucionar os problemas que muitos estacionamentos enfrentam sem uma aplicação no dia a dia para fazer o gerenciamento dos seus serviços de alugueis, ou seja, a solução visa ajudar tanto o usuário final como também os donos de estacionamento, por que o usuário final tem mais praticidade para acertar seu aluguel.
 
-### Cadastro de Especificação do Carro
-- [x] Deve ser possível cadastrar uma especificação para um carro.
+## 📕 **Documentação**
+A nossa documentação está disponível para ser consultada em <a href="http://54.94.165.2/api-docs" target="_blank">http://http://54.94.165.2/api-docs</a>
 
-### Cadastro de Imagens do Carro
-- [x] Deve ser possível cadastrar a imagem do carro.
 
-### Aluguel de Carro
-- [x] Deve ser possível cadastrar um aluguel.
+## 🚀 **Tecnologias**
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+* [TypeScript](https://typescriptlang.org) - TypeScript extends JavaScript by adding types to the language.
+* [Node.js](https://nodejs.org/en/) - A JavaScript runtime built on Chrome's V8 JavaScript engine.
+* [ExpressJS](http://expressjs.com/) - Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
+* [TypeORM](https://typeorm.io) - TypeORM is an ORM that can run in NodeJS, Browser, Cordova, PhoneGap, Ionic, React Native, NativeScript, Expo, and Electron platforms and can be used with TypeScript and JavaScript (ES5, ES6, ES7, ES8).
+* [PostgreSQL](https://www.postgresql.org/) - The World's Most Advanced Open Source Relational Database
+* [Jest](https://jestjs.io) - Jest is a JavaScript testing framework designed to ensure correctness of any JavaScript codebase.
+* [Docker](https://www.docker.com/) - Developers Love Docker. Businesses Trust It.
+* [BABEL](https://babeljs.io/) - BABEL The compiler for next generation JavaScript
+* [ESLint](https://eslint.org/) - ESLint is a static code analysis tool for identifying problematic patterns found in JavaScript code.
+* [Prettier](https://prettier.io/) - Prettier is an opinionated code formatter with support for JavaScript, TypeScript, JSON, GraphQL...
+* [AWS](https://aws.amazon.com) - Amazon Web Services (AWS) is a subsidiary of Amazon providing on-demand cloud computing platforms and APIs to individuals, companies, and governments,
+<p>
+<img src="https://cdn.svgporn.com/logos/typescript-icon.svg" alt="typescript" width="45" height="45" style="margin-left: 5px;"/>
+<img src="https://cdn.svgporn.com/logos/nodejs-icon.svg" alt="nodejs" width="45" height="45" style="margin-left: 5px;"/>
+<img src=".github/assets/typeorm.svg" alt="typeorm" width="45" height="45" style="margin-left: 5px;"/>
+<img src="https://cdn.svgporn.com/logos/postgresql.svg" alt="postgresql" width="45" height="45" style="margin-left: 5px;"/>
+<img src="https://cdn.svgporn.com/logos/jest.svg" alt="jest" width="45" height="45" style="margin-left: 5px;"/>
+<img src="https://cdn.svgporn.com/logos/docker-icon.svg" alt="docker" width="45" height="45" style="margin-left: 5px;"/>
+<img src="https://cdn.svgporn.com/logos/eslint.svg" alt="eslint" width="45" height="45" style="margin-left: 5px;"/>
+<img src="https://cdn.svgporn.com/logos/prettier.svg" alt="prettier" width="45" height="45" style="margin-left: 5px;"/>
+<img src="https://cdn.svgporn.com/logos/aws-s3.svg" alt="s3" width="45" height="45" style="margin-left: 5px;"/>
+<img src="https://cdn.svgporn.com/logos/aws-ses.svg" alt="ses" width="45" height="45" style="margin-left: 5px;"/>
+<img src="https://cdn.svgporn.com/logos/yarn.svg" alt="yarn" width="45" height="45" style="margin-left: 5px;"/>
+</p>
 
-### Devolução de Carro
-- [x] Deve ser possível realizar a devolução de um carro.
+## 🎉 **Funcionalidades**
+As funcionalidades desta API são
+* Cadastro do usuário ✅
+* Autenticação do usuário ✅
+* Perfil de usuário ✅
+* Alterar imagem do perfil ✅
+* Recuperação de senha do usuário ✅
+* Cadastrar carro ✅
+* Listar carros disponíveis ✅
+* Cadastrar especificação do carro ✅
+* Alterar imagens do carro ✅
+* Cadastrar especificação ✅
+* Listar todas as especificações ✅
+* Importar categorias por planilha (.csv) ✅
+* Cadastrar categoria ✅
+* Listar todas as categorias ✅
+* Consultar uma categoria ✅
+* Alterar uma categoria ✅
+* Excluir uma categoria ✅
+* Cadastrar um aluguel ✅
+* Devolver um carro alugado ✅
+* Listar alugueis do usuário ✅
 
-### Listagem de Alugueis para Usuário
-- [x] Deve ser possível realizar a busca de todos os alugueis para o usuário.
+## 💻 **Como executar**
+Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
+### 📋 *Pré-requisitos*
+- Node.js
+  - Para rodar este projeto é necessário ter [Node.js](https://nodejs.org/) instalado em sua maquina. Caso não tenha ainda basta acessar o site do [Node.js](https://nodejs.org/) e instalar para continuar.
+- Docker
+  - O projeto pode ser executado com Docker, para isso você deve ter ele em sua maquina local para executar o projeto e caso você queria instalar o Docker para Ubuntu/Windows vou deixar dois links abaixo;
+  - https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04
+  - https://docs.docker.com/desktop/windows/install/
 
-### Recuperar Senha
-- [x] Deve ser possível o usuário recuperar a senha informando o email.
-- [x] O Usuário deve receber um email com o passo a passo para a recuperação da senha.
-- [x] O Usuário deve conseguir inserir uma nove senha.
+### 🔧 *Instalação*
 
-## :white_check_mark: Requisitos não Funcionais
+- Clone este repositório com comando
+```bash
+git clone https://github.com/macmiller87/API_Ignite_Rentx
+```
+- Acesse a pasta do projeto
+```bash
+cd rentx-api
+```
+#### 🔥 ***Sem Docker***
+- Instale as dependências do projeto com (yarn ou npm) nesse exemplo estou usando **yarn**
+```bash
+yarn install
+```
+- Após a instalação das dependências você deve renomear os arquivos `.env.example` para `.env` e `.env.production.example` para `.env.production` que se encontram na raiz do projeto.
+- Caso você ainda não tenha criado a base de dados, basta executar esse comando no seu SGDB:
+````sql
+CREATE DATABASE rentxdb;
+````
+- Dentro do arquivo `.env` você coloca as informações do seu banco de dados.
+```bash
+# Exemplo
+DB_USERNAME="user" # nome de usuário do banco de dados
+DB_PASSWORD="password" # senha de usuário do banco de dados
+DB_NAME="rentxdb" # mantenha esse nome caso tenha executado o primeiro comando, caso contrario altere pelo nome escolhido.
+```
+- Feito as modificações anteriores, vamos agora executar o comando que roda as nossas migrations.
+```
+yarn db:migrate
+```
+- Em **produção** você vai precisar alterar o arquivo `.env.production`, coloque suas informações e após você deve executar o comando para iniciar API em **modo de produção**.
+```bash
+yarn start:prod
+```
 
-### Cadastro de Imagens do Carro
-- [x] Utilizar o multer para upload dos arquivos.
+- Iniciar a API em modo de desenvolvimento:
+```bash
+yarn start:dev
+```
 
-## :white_check_mark: Regra de Negócio
+**Pronto agora API estará rodando e pode ser acessado em [`http://localhost:8080`](http://localhost:8080)**
 
-### Cadastro de Carro
-- [x] Não deve ser possível cadastrar um carro com uma placa já existente.
-- [x] Não deve ser possível alterar uma placa de um carro já cadastrado.
-- [x] O carro deve ser cadastrado por padrão, com disponibilidade.
-- [x] O usuário responsável pelo cadastro deve ser um usuário administrador.
+#### ***🐳 Com Docker***
+- Instale as dependências do projeto com (yarn ou npm) nesse exemplo estou usando **yarn**
+```bash
+yarn install
+```
+- Após a instalação das dependências você deve renomear os arquivos `.env.example` para `.env` e `.env.production.example` para `.env.production` que se encontram na raiz do projeto.
+- Copie as informações abaixo para o arquivo `.env`.
+```bash
+DB_USERNAME="docker"
+DB_PASSWORD="docker"
+DB_NAME="rentxdb"
+```
+- Agora vamos subir o container do projeto utilizando o comando abaixo:
+```bash
+docker-compose up -d
+```
+- Após subir o container você pode observar os logs da aplicação:
+```bash
+docker logs api-rentx -f
+```
+**Pronto agora API estará rodando com Docker e já pode ser acessado em [`http://localhost:8080`](http://localhost:8080)**
 
-### Listagem de Carros
-- [x] O usuário não precisa estar logado no sistema.
+### ⚙️ Executando os testes
 
-### Cadastro de Especificação no Carro
-- [x] Não deve ser possível cadastrar uma especificação para um carro não cadastrado.
-- [x] Não deve ser possível cadastrar um especificação já existente para o mesmo carro.
-- [x] O usuário responsável pelo cadastro deve ser um usuário administrador.
+- Primeiramente para você conseguir rodar os testes sem problemas, você deve criar um banco de dados para realizar os teste
+````sql
+CREATE DATABASE rentxdb_test;
+````
+- Em seguida você vai precisar configurar com as suas informações o arquivo de ambiente de testes `.env.test`
+- Tendo feito tudo agora vamos rodar os testes da aplicação e pronto você já tem os seus testes configurado.
+````
+yarn test
+````
 
-### Cadastro de Imagens do Carro
-- [x] O usuário deve cadastrar mais de uma imagem para o mesmo carro.
-- [x] O usuário responsável pelo cadastro deve ser um usuário administrador.
+## 🤔 **Como contribuir**
+A contribuição para projetos open-sources são sempre bem-vindas!
+- Faça um fork desse repositório;
+- Cria uma branch com a sua feature: `git checkout -b minha-feature`;
+- Faça commit das suas alterações: `git commit -m '✨ feat(minha-feature): Minha nova feature'`;
+- Faça push para a sua branch: `git push origin minha-feature`.
 
-### Aluguel de Carro
-- [x] O aluguel deve ter duração mínima de 24 horas.
-- [x] Não deve ser possível cadastrar um aluguel, caso já exista um aberto para o mesmo usuário.
-- [x] Não deve ser possível cadastrar um aluguel, caso já exista um aberto para o mesmo carro.
-- [x] O Usuário deve estar logado na aplicação.
-- [x] Ao realizar um aluguel, o status do carro deverá ser alterado para indisponível.
+Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
 
-### Devolução de Carro
-- [x] Se o Carro for devolvido com menos de 24 horas, deverá ser cobrado diária completa.
-- [x] Ao realizar a devolução, o carro deverá ser liberado para outro aluguel.
-- [x] Ao realizar a devolução, o usuário deverá ser liberado para outro aluguel.
-- [x] Ao realizar a devolução, deverá ser calculado o total do aluguel.
-- [x] Caso o horário de devolução seja superior ao horário previsto de entrega , deverá ser cobrado multa proporcional aos dias de atraso.
-- [x] Caso haja multa, deverá ser somado ao total do aluguel.
-- [x] O Usuário deve estar logado na aplicação.
+## 📄 **Licença**
 
-### Listagem de Alugueis para Usuário
-- [x] O Usuário deve estar logado na aplicação.
+Este projeto está sob a licença MIT - veja o arquivo [LICENSE.md](LICENSE) para detalhes.
 
-### Recuperar Senha 
-- [x] O Usuário deve receber um email com o passo a passo para recuperação da senha.
-- [x] O Link enviado para a recuperação deve expiarar em 3 horas.
