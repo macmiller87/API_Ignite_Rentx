@@ -19,7 +19,7 @@ O projeto consiste em uma API para alugueis de automóveis, ela vem
 para solucionar os problemas que muitos estacionamentos enfrentam sem uma aplicação no dia a dia para fazer o gerenciamento dos seus serviços de alugueis, ou seja, a solução visa ajudar tanto o usuário final como também os donos de estacionamento, por que o usuário final tem mais praticidade para acertar seu aluguel.
 
 ## 📕 **Documentação**
-A nossa documentação está disponível para ser consultada em <a href="http://54.94.165.2/api-docs" target="_blank">http://http://54.94.165.2/api-docs</a>
+A nossa documentação está disponível para ser consultada em <a href="http://54.94.165.2/api-docs" target="_blank">http://54.94.165.2/api-docs</a>
 
 
 ## 🚀 **Tecnologias**
