@@ -12,7 +12,12 @@ services:
       - POSTGRES_PASSWORD=ignite   
       - POSTGRES_DB=rentx           
     volumes:                        
-      - pgdata:/data/postgres       
+      - pgdata:/data/postgres
+
+  redis: 
+    image: redis:alpine
+    ports:
+      - 6379:6379           
           
   app:                              
     build: .
